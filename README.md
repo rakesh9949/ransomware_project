@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #RANSOMWARE SIMULATION PROJECT
 This project simulates a real-world ransomware attack in a safe virtual environament
 
