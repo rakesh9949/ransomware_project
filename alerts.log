@@ -1,0 +1,28 @@
+2025-04-11 23:12:57,139 - [ALERT] File modified: /home/sec-lab/critical/lab1/manual1.txt
+2025-04-29 22:50:32,742 - [!] New file added: /home/sec-lab/critical/RANSOM_NOTE.txt
+2025-04-29 22:50:32,747 - [!] New file added: /home/sec-lab/critical/RANSOM_NOTE.txt.locked
+2025-04-29 22:50:32,747 - [!] New file added: /home/sec-lab/critical/RANSOM_NOTE.txt.locked.locked
+2025-04-29 22:50:32,747 - [!] New file added: /home/sec-lab/critical/lab1/RANSOM_NOTE.txt
+2025-04-29 22:50:32,747 - [!] New file added: /home/sec-lab/critical/lab1/manul1.txt
+2025-04-29 22:50:32,747 - [!] New file added: /home/sec-lab/critical/lab1/RANSOM_NOTE.txt.locked
+2025-04-29 22:50:32,747 - [!] New file added: /home/sec-lab/critical/lab1/RANSOM_NOTE.txt.locked.locked
+2025-04-29 22:50:32,747 - [!] New file added: /home/sec-lab/critical/lab1/manul1.txt.locked
+2025-04-29 22:50:32,747 - [!] New file added: /home/sec-lab/critical/lab1/manul1.txt.locked.locked.locked
+2025-04-29 22:50:32,747 - [!] New file added: /home/sec-lab/critical/lab1/manul1.txt.locked.locked
+2025-04-29 22:50:32,748 - [ALERT] File deleted: /home/sec-lab/critical/lab1/manual1.txt
+2025-05-02 21:48:25,003 - [!] New file added: /home/sec-lab/critical/RANSOM_NOTE.txt
+2025-05-02 21:48:25,004 - [!] New file added: /home/sec-lab/critical/lab1/RANSOM_NOTE.txt
+2025-05-02 21:48:25,004 - [ALERT] File deleted: /home/sec-lab/critical/lab1/manual1.txt
+2025-05-02 22:50:13,309 - [!] New file added: /home/sec-lab/critical/RANSOM_NOTE.txt
+2025-05-02 22:50:13,316 - [!] New file added: /home/sec-lab/critical/lab3/RANSOM_NOTE.txt
+2025-05-02 22:50:13,316 - [!] New file added: /home/sec-lab/critical/lab3/data/RANSOM_NOTE.txt
+2025-05-02 22:50:13,316 - [!] New file added: /home/sec-lab/critical/lab3/data/test/c.txt.locked
+2025-05-02 22:50:13,316 - [!] New file added: /home/sec-lab/critical/lab3/data/test/RANSOM_NOTE.txt
+2025-05-02 22:50:13,316 - [!] New file added: /home/sec-lab/critical/lab2/RANSOM_NOTE.txt
+2025-05-02 22:50:13,316 - [!] New file added: /home/sec-lab/critical/lab2/docs/b.txt.locked
+2025-05-02 22:50:13,316 - [!] New file added: /home/sec-lab/critical/lab2/docs/RANSOM_NOTE.txt
+2025-05-02 22:50:13,316 - [!] New file added: /home/sec-lab/critical/lab1/RANSOM_NOTE.txt
+2025-05-02 22:50:13,316 - [!] New file added: /home/sec-lab/critical/lab1/reports/RANSOM_NOTE.txt
+2025-05-02 22:50:13,316 - [!] New file added: /home/sec-lab/critical/lab1/reports/final/a.txt.locked
+2025-05-02 22:50:13,316 - [!] New file added: /home/sec-lab/critical/lab1/reports/final/RANSOM_NOTE.txt
+2025-05-02 22:50:13,316 - [ALERT] File deleted: /home/sec-lab/critical/lab1/manual1.txt

