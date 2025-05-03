@@ -31,6 +31,7 @@ ransomware_project/
 - encrypt.py: Encrypts all files with .locked extension
 - Sends a simulated email with the key
 - decrypt.py: Recovers files using the encryption key
+  
 
 ### 4. Step 2 - Infection
 - SecurityUpdate.py: A fake security update script that runs encrypt.py silently
@@ -43,14 +44,21 @@ ransomware_project/
 
 ### 7. Mitigation
 - mitigation.py: Finds .locked files and ransom notes, moves them to quarantine
+  
 
 ## How to Run
 python3 encrypt.py
+
 python3 decrypt.py
+
 python3 SecurityUpdate.py
+
 python3 monitor_files.py
+
 python3 detection_files.py
+
 python3 mitigation.py
+
 
 ## Disclaimer
 This project is for academic and demonstration purposes only. Do not use in real environments.
