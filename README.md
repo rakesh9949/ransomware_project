@@ -1,6 +1,6 @@
 # Ransomware Simulation Project
 
-This repository contains the complete ransomware simulation project structured by phases, including design files, scripts, and explanations.
+This repository contains the complete ransomwsimulation project structured by phases, including design files, scripts, and explanations.
 
 ## Project Overview
 This project demonstrates how ransomware works in a controlled environment using Python. It simulates encryption, phishing infection, file monitoring, detection of suspicious activity, and mitigation.
